@@ -1,0 +1,399 @@
+.top{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 5px;
+    border-bottom: 1px solid black;
+    background-color:aqua;
+}
+
+.logo{
+    position: absolute;
+    left: 50px;
+    color: orangered;
+}
+.top-middle-btn{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    top: 25px;
+    left: 630px;
+}
+.mbtn1,.mbtn2{
+    border: 1px solid white;
+    padding: 6px 25px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px gray;
+    background-color: white;
+}
+.mbtn1:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.mbtn2:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.top-middle-right{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    top: 25px;
+    left: 1150px;
+}
+.rbtn1,.rbtn2,.rbtn3{
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px gray;
+    background-color: white;
+}
+.rbtn1:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.rbtn2:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.rbtn3:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.rbtn3{
+    display: flex;
+    gap: 10px;
+}
+.search-bar{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 80px;
+    left: 390px;
+    top: 120px;
+    background-color: black;
+}
+.sb1,.sb2,.sb3,.sb4{
+    border: none;
+    background-color:black;
+    border-right-style:dotted;
+    border-color: grey;
+    
+}
+.sb1:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.sb2:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.sb3:hover{
+    background-color: rgb(114, 114, 114);
+    transition: 0.5s;
+}
+.sb4:hover{
+    background-color: aqua;
+}
+
+.l1{
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.l2{
+    font-size: 14px;
+    color: rgb(255, 180, 180);
+    padding-right: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.ssvg{
+    background-color: orangered;
+    border: none;
+    color: rgb(82, 49, 38);
+    padding: 10px 20px;
+    position: absolute;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.middle{
+    position: relative;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    gap: 13px;
+}
+.images-content1, .images-content2,.images-content3,.images-content4,.images-content5{
+    position: absolute;
+    top: 220px;
+}
+.images-content1,.images-content2,.images-content3,.images-content4{
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid white;
+    width: 20%;
+    padding: 30px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.images-content1:hover{
+    background-color: rgb(140, 206, 124);
+    transition: 0.5s;
+}
+.images-content2:hover{
+    background-color: rgb(140, 206, 124);
+    transition: 0.5s;
+}
+.images-content3:hover{
+    background-color: rgb(140, 206, 124);
+    transition: 0.5s;
+}
+.images-content4:hover{
+    background-color: rgb(140, 206, 124);
+    transition: 0.5s;
+}
+
+.img1,.img2,.img3,.img4{
+    position: absolute;
+    width: 340px;
+    height: 240px;
+    border-radius: 20px;
+    left: 10px;
+    top: 10px;
+}
+.name1,.name2,.name3,.name4{
+    margin-top: 250px;
+    font-size: 28px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.name2{
+    margin-top: 250px;
+    font-size: 24px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.location1,.location3,.location4,.location2{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    color: grey;
+    margin-top: 20px;
+}
+
+.price1,.price2,.price3,.price4{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;    color: red;
+    margin-top: 5px;
+}
+.description1,.description2,.description3,.description4{
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;    color: blue;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.rating1,.rating2,.rating3,.rating4{
+    position: absolute;
+    bottom: 135px;
+    right: 20px;
+}
+.star1,.r1{
+    display: inline;
+    color: rgb(97, 93, 71);
+}
+.star2,.r2{
+    display: inline;
+    color: rgb(97, 93, 71);
+}
+.star3,.r3{
+    display: inline;
+    color: rgb(97, 93, 71);
+}
+.star4,.r4{
+    display: inline;
+    color: rgb(97, 93, 71);
+}
+.book1,.book2,.book3,.book4{
+    position: absolute;
+    bottom: 2px;
+    left: 70px;
+    border-radius: 60px;
+    border: 1px solid grey;
+    padding: 10px 80px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.book1:hover{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    transition: 0.5s;
+}
+.book2:hover{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    transition: 0.5s;
+}
+.book3:hover{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    transition: 0.5s;
+}
+.book4:hover{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    transition: 0.5s;
+}
+
+.in-between{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 220px;
+    margin-left: 320px;
+    position: relative;
+}
+.svg-cat1{
+    position: absolute;
+    left:20px;
+    border-right: 1px solid grey;
+    padding: 5px;
+}
+
+.bibi-tsunami{
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+}
+.svg1{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat2{
+    position: absolute;
+    left:130px;
+    border-right: 1px solid grey;
+    padding:5px 10px;
+}
+.bibi-award-fill{
+    height: 30px;
+    width: 30px;
+}
+.svg2{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat3{
+    position: absolute;
+    left:180px;
+    border-right: 1px solid grey;
+    padding:5px 10px;
+}
+.svgg3{
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+.svg3{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat4{
+    position: absolute;
+    left:300px;
+    border-right: 1px solid grey;
+    padding:5px 10px;
+}
+.bibi-flower1{
+    height: 30px;
+    width: 30px;
+}
+.svg4{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat5{
+    position: absolute;
+    left:350px;
+    border-right: 1px solid grey;
+    padding:5px 15px;
+}
+.bibi-buildings{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+.svg5{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat6{
+    position: absolute;
+    left:430px;
+    border-right: 1px solid grey;
+    padding:5px 15px;
+}
+.svgg6{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+.svg6{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat7{
+    position: absolute;
+    left:510px;
+    border-right: 1px solid grey;
+    padding:5px 15px;
+}
+.svgg7{
+    height: 30px;
+    width: 30px;
+    margin-left: 35px;
+}
+.svg7{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat8{
+    position: absolute;
+    left: 640px;
+    border-right: 1px solid grey;
+    padding:5px 15px;
+}
+.svgg8{
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+}
+.svg8{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat9{
+    position: absolute;
+    left: 740px;
+    padding:5px 15px;
+}
+.svgg9{
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+}
+.svg9{
+    font-size: 15px;
+    text-align: center;
+}
+.svg-cat1:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
